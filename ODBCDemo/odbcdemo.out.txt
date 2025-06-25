@@ -1,0 +1,336 @@
+
+C:\Users\Matt\eclipse-c-workspace\ODBCDemo\Debug>ODBCDemo.exe
+
+Enter the DSN : MySql
+
+Enter the UID : matt
+
+Enter the PWD : matt
+ODBCDemo: will connect to data source 'MySql' as user 'matt/matt'.
+Driver version: 09.03.0000
+Calling SQLGetTypeInfo...
+Fetching result set...
+LITERAL PREFIX
+indicator(d):   1
+indicator(lld):  1
+indicator(hex):  10000000
+'
+
+LITERAL SUFFIX
+indicator(d):    1
+indicator(lld):  1
+indicator(hex):  10000000
+'
+
+indicator(d):    3
+indicator(lld):  3
+indicator(hex):  30000000
+bit
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+tinyint
+
+indicator(d):    16
+indicator(lld):  16
+indicator(hex):  100000000
+tinyint unsigned
+
+indicator(d):    22
+indicator(lld):  22
+indicator(hex):  160000000
+tinyint auto_increment
+
+indicator(d):    31
+indicator(lld):  31
+indicator(hex):  1f0000000
+tinyint unsigned auto_increment
+
+indicator(d):    6
+indicator(lld):  6
+indicator(hex):  60000000
+bigint
+
+indicator(d):    15
+indicator(lld):  15
+indicator(hex):  f0000000
+bigint unsigned
+
+indicator(d):    21
+indicator(lld):  21
+indicator(hex):  150000000
+bigint auto_increment
+
+indicator(d):    30
+indicator(lld):  30
+indicator(hex):  1e0000000
+bigint unsigned auto_increment
+
+indicator(d):    14
+indicator(lld):  14
+indicator(hex):  e0000000
+long varbinary
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+blob
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+longblob
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+tinyblob
+
+indicator(d):    10
+indicator(lld):  10
+indicator(hex):  a0000000
+mediumblob
+
+indicator(d):    9
+indicator(lld):  9
+indicator(hex):  90000000
+varbinary
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+vector()
+
+indicator(d):    6
+indicator(lld):  6
+indicator(hex):  60000000
+binary
+
+indicator(d):    12
+indicator(lld):  12
+indicator(hex):  c0000000
+long varchar
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+text
+
+indicator(d):    10
+indicator(lld):  10
+indicator(hex):  a0000000
+mediumtext
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+longtext
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+tinytext
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+json
+
+indicator(d):    12
+indicator(lld):  12
+indicator(hex):  c0000000
+long varchar
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+text
+
+indicator(d):    10
+indicator(lld):  10
+indicator(hex):  a0000000
+mediumtext
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+longtext
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+tinytext
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+json
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+char
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+char
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+numeric
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+decimal
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+integer
+
+indicator(d):    16
+indicator(lld):  16
+indicator(hex):  100000000
+integer unsigned
+
+indicator(d):    3
+indicator(lld):  3
+indicator(hex):  30000000
+int
+
+indicator(d):    12
+indicator(lld):  12
+indicator(hex):  c0000000
+int unsigned
+
+indicator(d):    9
+indicator(lld):  9
+indicator(hex):  90000000
+mediumint
+
+indicator(d):    18
+indicator(lld):  18
+indicator(hex):  120000000
+mediumint unsigned
+
+indicator(d):    22
+indicator(lld):  22
+indicator(hex):  160000000
+integer auto_increment
+
+indicator(d):    31
+indicator(lld):  31
+indicator(hex):  1f0000000
+integer unsigned auto_increment
+
+indicator(d):    18
+indicator(lld):  18
+indicator(hex):  120000000
+int auto_increment
+
+indicator(d):    27
+indicator(lld):  27
+indicator(hex):  1b0000000
+int unsigned auto_increment
+
+indicator(d):    24
+indicator(lld):  24
+indicator(hex):  180000000
+mediumint auto_increment
+
+indicator(d):    33
+indicator(lld):  33
+indicator(hex):  210000000
+mediumint unsigned auto_increment
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+smallint
+
+indicator(d):    17
+indicator(lld):  17
+indicator(hex):  110000000
+smallint unsigned
+
+indicator(d):    23
+indicator(lld):  23
+indicator(hex):  170000000
+smallint auto_increment
+
+indicator(d):    32
+indicator(lld):  32
+indicator(hex):  200000000
+smallint unsigned auto_increment
+
+indicator(d):    6
+indicator(lld):  6
+indicator(hex):  60000000
+double
+
+indicator(d):    21
+indicator(lld):  21
+indicator(hex):  150000000
+double auto_increment
+
+indicator(d):    5
+indicator(lld):  5
+indicator(hex):  50000000
+float
+
+indicator(d):    20
+indicator(lld):  20
+indicator(hex):  140000000
+float auto_increment
+
+indicator(d):    6
+indicator(lld):  6
+indicator(hex):  60000000
+double
+
+indicator(d):    21
+indicator(lld):  21
+indicator(hex):  150000000
+double auto_increment
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+date
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+time
+
+indicator(d):    4
+indicator(lld):  4
+indicator(hex):  40000000
+year
+
+indicator(d):    8
+indicator(lld):  8
+indicator(hex):  80000000
+datetime
+
+indicator(d):    9
+indicator(lld):  9
+indicator(hex):  90000000
+timestamp
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+varchar
+
+indicator(d):    7
+indicator(lld):  7
+indicator(hex):  70000000
+varchar
+
+
+C:\Users\Matt\eclipse-c-workspace\ODBCDemo\Debug>

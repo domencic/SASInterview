@@ -1,0 +1,22 @@
+Below are the issues with the ODBCDemo application.
+I've corrected them and run against a MySql ODBC driver.
+Source is uploaded and output from run is in odbcdemo.out.
+
+
+1)hdbc is not initialized before call to SQLConnect.
+Can do this :
+ rc = SQLAllocConnect(henv, &hdbc);
+or this:
+ rc - SQLAllocHandle(SQL_HANDLE_DBC, henv, &hdbc);
+
+before call to SQLConnect
+
+2)rc = SQLConnect (hdbc, (SQLCHAR*)uid, SQL_NTS, (SQLCHAR*)pwd, SQL_NTS);
+This line doesn't have the DSN.  Should be:
+rc = SQLConnect (hdbc, driver, SQL_NTS,(SQLCHAR*)uid, SQL_NTS, (SQLCHAR*)pwd, SQL_NTS);
+
+3) If invalid handle SQLError goes into infinite loop:
+Change 
+if (rc != SQL_NO_DATA_FOUND) {
+to:
+if (rc != SQL_NO_DATA_FOUND && rc != SQL_INVALID_HANDLE) {
